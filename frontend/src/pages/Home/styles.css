@@ -1,0 +1,21 @@
+* {
+  background-color: #ffc2b3;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  color: #ff8533;
+}
+
+.btn {
+  background-color: #ff4d4d;
+  color: lightgray;
+  font-size: 60px;
+}
+
+.btn:hover {
+  color: white;
+  opacity: 0.9;
+}
+
+.anima {
+  width: 300px;
+}

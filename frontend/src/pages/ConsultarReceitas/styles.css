@@ -1,0 +1,37 @@
+.btn-vol {
+  font-size: 30px;
+  height: 50px;
+  line-height: 25px;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: white;
+  color: black;
+}
+
+.c {
+  background-color: white;
+}
+
+.card-header {
+  background-color: white;
+}
+
+.card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  margin: 0;
+}
