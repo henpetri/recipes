@@ -10,20 +10,20 @@ interface Recipe {
   modo: string;
 }
 
+interface Params {
+  id: any;
+}
+
 const Atualizar = () => {
   const history = useHistory();
 
-  const { id } = useParams();
+  const { id } = useParams<Params>();
 
   const [recipe, setRecipe] = useState<Recipe>({
     nome: '',
     ingredientes: '',
     modo: '',
   });
-
-  useEffect(() => {
-    loadRecipe();
-  }, []);
 
   function updateRecipe(e: ChangeEvent<HTMLInputElement>) {
     setRecipe({
@@ -40,6 +40,10 @@ const Atualizar = () => {
       modo: response.data.modo,
     });
   }
+
+  useEffect(() => {
+    loadRecipe();
+  }, []);
 
   async function handleUpdate(e: ChangeEvent<HTMLFormElement>) {
     e.preventDefault();
