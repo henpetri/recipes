@@ -11,6 +11,7 @@ Site para armazenar, consultar, deletar e editar receitas. (CRUD)
 ### Na tela inicial, clicando em ```Consultar receitas``` irá abrir a página abaixo que mostrará todas as receitas cadastradas
 ![TelaInicial](https://github.com/henpetri/recipes/blob/master/frontend/src/assets/consultar.PNG)
 
+### Clicando na ```lixeira``` de alguma receita, ela será deletada
 ### Clicando na ```engrenagem``` de alguma receita, irá abrir a página abaixo
 ![TelaInicial](https://github.com/henpetri/recipes/blob/master/frontend/src/assets/atualizar.PNG)
 
